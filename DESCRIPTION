@@ -1,0 +1,18 @@
+Package: robotnav
+Title: Wall Following Robot Navigation Data
+Version: 0.1.0.9000
+Date: 2015-09-01
+Authors@R: person(
+  "Adam", "Acosta",
+  email = "adam.acosta@gatech.edu",
+  role = c("aut", "cre"))
+Description: The first one contains the raw values of the measurements
+  of all 24 ultrasound sensors and the corresponding class label (see Section 7).
+  Sensor readings are sampled at a rate of 9 samples per second.
+License: CC0
+LazyData: TRUE
+Depends:
+  R (>= 3.2.0)
+Suggests:
+  dplyr
+URL: http://github.com/adamacosta/robotnav
